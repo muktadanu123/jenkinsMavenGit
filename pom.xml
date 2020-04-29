@@ -59,8 +59,9 @@
           </configuration>
         </plugin>
         <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
+            <artifactId>maven-war-plugin</artifactId>
+  <version>3.2.4-SNAPSHOT</version>
+  <packaging>maven-plugin</packaging>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
